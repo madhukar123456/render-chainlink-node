@@ -19,7 +19,8 @@ def run_terminal_commands(commands):
 if __name__ == "__main__":
     # List of terminal commands to run
     commands_to_run = [
-        'docker-compose up -d',
+        'docker-compose up build',
+        'docker-compose up'
         # Add more commands as needed
     ]
 
